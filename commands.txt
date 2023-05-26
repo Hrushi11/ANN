@@ -1,0 +1,13 @@
+python3 -V
+
+# If venv is not present (not installed)
+sudo apt install python3-venv
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+# venv is activated, you can use your commands
+
+jupyter-notebook
+
